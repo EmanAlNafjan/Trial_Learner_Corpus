@@ -1,6 +1,7 @@
 import pandas as pd
 from bs4 import BeautifulSoup
 import nltk
+nltk.download('all')
 from nltk.tokenize import word_tokenize
 from nltk.text import Text
 import streamlit as st
